@@ -25,3 +25,5 @@ queries contained in repository
 * **latency_eventmetric.sql** - wait event latency from V$EVENTMETRIC, ie last 60 seconds
 * **latency_system_event.sql** - wait event latency from DBA_HIST_SYSTEM_EVENT
 * **latency_waitclassmetric.sql** - User I/O  latency from V$WAITCLASSMETRIC, ie  over last 60 seconds
+* **ash_enq** - Blocking session history in ASH(In Memory)
+*  **ash_enq_hist** - Blocking session history in DBA_HIST_ASH(In Dictionary)
